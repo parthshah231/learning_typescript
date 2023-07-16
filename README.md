@@ -16,3 +16,29 @@ Functions can have different ways of accepting parameters (inputs):
 - **Fixed parameters**: These are parameters that a function expects to receive in a specific order, and they are required.
 - **Optional parameters**: These are parameters that can be omitted when calling a function. They have default values or are marked as optional using a `?` symbol.
 - **Rest parameters**: These are used when you want to pass an arbitrary number of arguments to a function. The rest parameters are represented by `...` followed by the parameter name.
+
+### Classes
+
+Classes are blueprints for creating objects in TypeScript. They help define the structure and behavior of an object. Here's an overview of the components of a class and what you can do with classes:
+
+#### Components of a Class
+
+- **Class variables**: Variables that hold data associated with the class. They can have different access modifiers:
+   - **Private**: Only accessible within the class.
+   - **Protected**: Accessible within the class and its subclasses.
+   - **Public**: Accessible from anywhere.
+
+- **Class methods**: Functions defined within a class that perform specific actions or provide functionality.
+
+#### What You Can Do with Classes
+
+- **Abstraction**: Define abstract concepts or entities that hide implementation details.
+- **Inheritance**: Create subclasses (derived classes) based on existing classes (superclasses or base classes) to inherit their properties and methods.
+- **Composition**: Build complex classes by combining smaller classes or components.
+- **Encapsulation**: Bundle data (properties) and operations (methods) together within a class and control their access.
+- **Polymorphism**: Allow objects to take on different forms or exhibit different behaviors based on context.
+- **Interfaces**: Define contracts or blueprints for objects, specifying required properties and methods.
+- **Modules/Namespaces**: Organize and encapsulate related code into separate files or logical units.
+
+ 
+    
