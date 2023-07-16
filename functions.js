@@ -27,6 +27,13 @@ function add(num1, num2, ...num3) {
     return num1 + num2 + num3.reduce((a, b) => a + b, 0);
 }
 let numbers = [5, 6, 7];
-console.log(add(2, 3, ...numbers));
+// console.log(add(2,3, ...numbers));
+console.log(add(2, 3, 4, 5, 6, 7, 8)); // it will convert 4,5,6,7,8 => [4,5,6,7,8]
+// generic types
+function getItems(items) {
+    return new Array().concat(items);
+}
+let concatResult = getItems([1, 2, 3, 4, 5]);
+let concatStr = getItems(["a", "b", "c", "d"]);
 // use tsc to compile, when compiled, it will create a functions.js file
 // node functions to run the js file
