@@ -19,14 +19,14 @@ Functions can have different ways of accepting parameters (inputs):
 
 ### Classes
 
-Classes are blueprints for creating objects in TypeScript. They help define the structure and behavior of an object. Here's an overview of the components of a class and what you can do with classes:
+Classes are blueprints for creating objects in TypeScript. They help define the structure and behavior of an object.
 
 #### Components of a Class
 
 - **Class variables**: Variables that hold data associated with the class. They can have different access modifiers:
-   - **Private**: Only accessible within the class.
-   - **Protected**: Accessible within the class and its subclasses.
-   - **Public**: Accessible from anywhere.
+   - **private**: Only accessible within the class.
+   - **protected**: Accessible within the class and its subclasses.
+   - **public**: Accessible from anywhere.
 
 - **Class methods**: Functions defined within a class that perform specific actions or provide functionality.
 
